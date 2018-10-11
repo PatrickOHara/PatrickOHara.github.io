@@ -120,18 +120,29 @@ color:  #64485C;
     border-bottom-style: solid;
 }
 
+.bg-3 .under h3 {
+    padding: 20px;
+    border-bottom-color:  #64485C;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+
 .bg-4 { 
     background-color: #2f2f2f;
     color: #ffffff;
 }
 
 body {
-    font: 20px "Montserrat", sans-serif;
+    font: 18px "Montserrat", sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
 }
 
-p {font-size: 16px;}
+p {font-size: 18px;}
+
+.boxed-text li {
+    font-size: 18px;
+}
 
 .container-fluid .boxed {
     text-align:center;
