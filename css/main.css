@@ -1,18 +1,3 @@
-/* body {
-    margin: 60px auto;
-    width: 70%;
-}
-
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
 a {
     text-decoration: none;
     color: #999;
@@ -20,33 +5,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-} */
 
 .bg-1 { 
-    /* background-color: rgb(102, 3, 102); Green */
     background-color: #64485C;
-    /* color: #ffffff; */
 }
 .bg-2 { 
 background-color: #474e5d; /* Dark Blue */
@@ -61,21 +23,6 @@ padding-top: 70px;
 padding-bottom: 70px;
 }
 
-.bg-2 .news {
-    padding: 20px;
-}
-
-.newsgrid {
-    display:inline-block;
-    max-width: 1000px;
-}
-
-.bg-2 .news h3 {
-    padding-bottom: 5px;
-    border-bottom-color:  #64485C;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-}
 
 .bg-2 a {
     color: white;
@@ -86,27 +33,13 @@ padding-bottom: 70px;
     color:  #64485C;
 }
 
-.navbar {
-padding-top: 15px;
-padding-bottom: 15px;
-border: 0;
-border-radius: 0;
-margin-bottom: 0;
-font-size: 12px;
-letter-spacing: 5px;
-}
-
-.navbar-nav li a:hover {
-color:  #64485C;
-}
-
 .myicon {
     font-size: 72px;
     color: white;
 }
 
 .myicon a:hover {
-    color: black;
+    color: #64485C;
 }
 
 .myicon a {
@@ -133,15 +66,9 @@ color:  #64485C;
 }
 
 body {
-    font: 18px "Montserrat", sans-serif;
+    font: 14px "Montserrat", sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
-}
-
-p {font-size: 18px;}
-
-.boxed-text li {
-    font-size: 18px;
 }
 
 .container-fluid .boxed {
@@ -171,18 +98,3 @@ p {font-size: 18px;}
 .circle-img img {
     padding: 40px;
 }
-
-.bgimage {
-    width:100%;
-    height:500px;
-    background-image: url('../adaptive_k=1.png');
-    /* background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c'); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
-  }
-  .bgimage h5 {
-    color:red;
-    text-shadow:2px 2px #333;
-  }
