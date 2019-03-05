@@ -1,7 +1,9 @@
-a {
+.bg-3 a {
     text-decoration: none;
-    color: #999;
+    color : #64485C;
+    font-weight: bold;
 }
+
 a:hover {
     text-decoration: underline;
 }
