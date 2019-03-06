@@ -1,3 +1,50 @@
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media (min-width: 576px) { 
+    .bg-1 {
+        width:100%;
+    }
+    .bg-3 {
+        width:100%;
+    }
+    .split {
+        /* position: relative; */
+        /* z-index: 1; */
+        /* overflow-x: hidden; */
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .bg-1 {
+        left: 0;
+        width: 30%;
+    }
+    .bg-3 {
+        right: 0;
+        width: 70%;
+    }
+
+    /* Split the screen in half */
+    .split {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+}
+
+
 .bg-3 a {
     text-decoration: none;
     color : #64485C;
